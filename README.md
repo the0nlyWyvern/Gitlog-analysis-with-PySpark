@@ -12,7 +12,7 @@ I recommend to use Colab
 
 ---
 
-## Contents:
+## Contents
 
 1. Gathering the data:
    1. Clone git respository
@@ -20,5 +20,19 @@ I recommend to use Colab
    3. Understand features of data
 2. Data cleaning
 3. Interpreting the data
-   1. Q. Who has the most commit in 2021
-   2. Last commit that change the file "nbdime/webapp/templates/difftool.html"?
+   1. Q. Who has the most commit in 2021?
+   2. Q. Last commit that change the file "nbdime/webapp/templates/difftool.html"?
+
+---
+
+## Features
+
+| Column name  | Note                                                             |
+| ------------ | ---------------------------------------------------------------- |
+| Id           | Abbreviated commit hash                                          |
+| ParentIds    | Abbreviated parent hashes                                        |
+| AuthorName   |                                                                  |
+| AuthorEmail  |                                                                  |
+| AuthorDate   |                                                                  |
+| Subject      |                                                                  |
+| ChangedFiles | If there are many changes, the files will be separated by commas |
